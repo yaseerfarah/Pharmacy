@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+
+    android:layout_width="170dp"
+    android:layout_height="290dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="6dp"
+    android:id="@+id/card_view"
+    android:elevation="8dp"
+    >
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/pro_image"
+                android:scaleType="fitCenter"
+
+
+
+                />
+
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/like_button"
+                >
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:indeterminateDrawable="@drawable/loading_anim"
+
+                android:id="@+id/progress"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sold Out"
+                android:id="@+id/out_of_quantity"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/out_of2"
+                android:rotation="-30"
+                android:elevation="9dp"
+                android:visibility="invisible"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/trans_white"
+                android:elevation="8dp"
+                android:id="@+id/sold_layout"
+                android:visibility="invisible"
+                />
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/pro_image"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:id="@+id/pro_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:text="Panadol Night"
+                    android:textStyle="bold"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pro_name"
+                    android:id="@+id/ex_dis"
+                    android:layout_marginBottom="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pro_exprice"
+                        android:text="155"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="normal"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pro_exegp"
+                        android:text=".EGP"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_toRightOf="@+id/pro_exprice"
+                        android:layout_marginLeft="1dp"
+                        android:typeface="serif"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/discount_background"
+                        android:id="@+id/pro_discount"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="10dp"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:text="15%"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.7dp"
+                        android:layout_marginTop="11dp"
+                        android:id="@+id/pro_linexprice"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_alignEnd="@+id/pro_exegp"
+                        android:background="@android:color/darker_gray"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/pro_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ex_dis"
+
+                    android:textColor="@android:color/black"
+
+                    android:typeface="serif"
+                    android:text="149.99"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/pro_egp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/pro_price"
+                    android:layout_below="@+id/ex_dis"
+
+                    android:textColor="@android:color/black"
+
+                    android:typeface="serif"
+                    android:text=".EGP"
+                    android:textSize="18sp"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.v7.widget.CardView>

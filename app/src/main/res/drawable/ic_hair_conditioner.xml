@@ -1,0 +1,12 @@
+<vector android:height="40dp" android:viewportHeight="512.0"
+    android:viewportWidth="512.0" android:width="40dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FFf" android:pathData="m406,0h-300c-5.5,0 -10,4.5 -10,10v40c0,0.5 0,1.1 0.1,1.6l57.9,351.2v99.2c0,5.5 4.5,10 10,10h184c5.5,0 10,-4.5 10,-10v-99.2s57.9,-351.1 57.9,-351.2c0.1,-0.5 0.1,-1.1 0.1,-1.6v-40c0,-5.5 -4.5,-10 -10,-10zM338,452h-49.7c-4.1,-11.6 -15.2,-20 -28.3,-20s-24.2,8.4 -28.3,20h-57.7v-40h164zM338,492h-164v-20h66c5.5,0 10,-4.5 10,-10 0,-5.5 4.5,-10 10,-10s10,4.5 10,10c0,5.5 4.5,10 10,10h58zM339.5,392h-167l-54.7,-332h276.4zM396,40h-280v-20h280zM396,40"/>
+    <path android:fillColor="#FFf" android:pathData="m276,232h-40c-27.6,0 -50,22.4 -50,50s22.4,50 50,50h40c27.6,0 50,-22.4 50,-50s-22.4,-50 -50,-50zM276,312h-40c-16.5,0 -30,-13.5 -30,-30s13.5,-30 30,-30h40c16.5,0 30,13.5 30,30s-13.5,30 -30,30zM276,312"/>
+    <path android:fillColor="#FFf" android:pathData="m276,272h-40c-5.5,0 -10,4.5 -10,10s4.5,10 10,10h40c5.5,0 10,-4.5 10,-10s-4.5,-10 -10,-10zM276,272"/>
+    <path android:fillColor="#FFf" android:pathData="m316,160c-5.5,0 -10,4.5 -10,10s4.5,10 10,10 10,-4.5 10,-10 -4.5,-10 -10,-10zM316,160"/>
+    <path android:fillColor="#FFf" android:pathData="m276,180c5.5,0 10,-4.5 10,-10s-4.5,-10 -10,-10h-80c-5.5,0 -10,4.5 -10,10s4.5,10 10,10zM276,180"/>
+    <path android:fillColor="#FFf" android:pathData="m336,120h-160c-5.5,0 -10,4.5 -10,10s4.5,10 10,10h160c5.5,0 10,-4.5 10,-10s-4.5,-10 -10,-10zM336,120"/>
+    <path android:fillColor="#FFf" android:pathData="m296,100.1h60c5.6,0 10.1,-4.5 10.1,-10.1s-4.5,-10.1 -10.1,-10.1h-60c-5.6,0 -10.1,4.5 -10.1,10.1s4.5,10.1 10.1,10.1zM296,100.1"/>
+    <path android:fillColor="#FFf" android:pathData="m256,100.1c5.6,0 10.1,-4.5 10.1,-10.1s-4.5,-10.1 -10.1,-10.1 -10.1,4.5 -10.1,10.1 4.5,10.1 10.1,10.1zM256,100.1"/>
+    <path android:fillColor="#FFf" android:pathData="m156,100.1h60c5.6,0 10.1,-4.5 10.1,-10.1s-4.5,-10.1 -10.1,-10.1h-60c-5.6,0 -10.1,4.5 -10.1,10.1s4.5,10.1 10.1,10.1zM156,100.1"/>
+</vector>

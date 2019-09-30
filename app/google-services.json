@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "551412667568",
+    "firebase_url": "https://parmacy-4ec85.firebaseio.com",
+    "project_id": "parmacy-4ec85",
+    "storage_bucket": "parmacy-4ec85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551412667568:android:483eff2cf9ad0d5f",
+        "android_client_info": {
+          "package_name": "yaseerfarah22.com.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551412667568-kg9m00chad44fs89pa63fnjvvb0aipcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9rBVmT279Z3bk_-Pc6UrwkxZo3ZLSX2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551412667568-447qphfmhut4jpmk06h41bljs4aqk3mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551412667568:android:5c9dffa32d7dc30c",
+        "android_client_info": {
+          "package_name": "yaseerfarah22.com.pharmacyadministrator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551412667568-0gc75r2hn3up21gaicvirj92bul5q5gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yaseerfarah22.com.pharmacyadministrator",
+            "certificate_hash": "4ce72b1271f7bde542269b27fd7922b203b76197"
+          }
+        },
+        {
+          "client_id": "551412667568-kg9m00chad44fs89pa63fnjvvb0aipcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9rBVmT279Z3bk_-Pc6UrwkxZo3ZLSX2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551412667568-447qphfmhut4jpmk06h41bljs4aqk3mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

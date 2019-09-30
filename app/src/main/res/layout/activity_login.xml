@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yaseerfarah22.com.pharmacy.View.Login">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_backg"
+        >
+
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/com_facebook_button_icon_white"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:backgroundTint="@color/com_facebook_button_background_color"
+            android:text="Continue With Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/facebook"
+            android:layout_above="@+id/google"
+            android:layout_marginBottom="10dp"
+
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/googleg_standard_color_18"
+            android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+
+            android:text="Continue With Google"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_dark_background"
+            android:padding="15dp"
+            android:drawablePadding="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/google"
+
+            />
+
+
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/phar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

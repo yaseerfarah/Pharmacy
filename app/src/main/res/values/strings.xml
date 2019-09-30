@@ -1,0 +1,314 @@
+<resources>
+    <string name="app_name">Pharmacy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="search">search_box</string>
+
+    <string name="emptylist1">There is NO Match</string>
+    <string name="emptylist2">Well Add it Soon</string>
+
+
+    <string name="emptylike1">There is NO Favorite !!!</string>
+    <string name="emptylike2">Let\'s Go and Save Some Products</string>
+
+    <string name="Vitamin">Vitamin</string>
+    <string name="Pill">Pill</string>
+    <string name="Skin">Skin</string>
+    <string name="Body">Body</string>
+    <string name="Baby">Baby</string>
+    <string name="Medical">Medical Supplies</string>
+    <string name="Hair">Hair</string>
+    <string name="Beauty">Beauty</string>
+    <string name="Perfume">Perfume</string>
+
+    <string-array name="categories">
+
+        <item>All</item>
+
+        <item>Vitamin</item>
+        <item>Pill</item>
+        <item>Skin</item>
+        <item>Body</item>
+        <item>Baby</item>
+        <item>Medical Supplies</item>
+        <item>Hair</item>
+        <item>Beauty</item>
+        <item>Perfume</item>
+    </string-array>
+
+
+    <string-array name="Order">
+
+        <item>All</item>
+        <item>High To Low Price</item>
+        <item>Low To High Price</item>
+
+
+    </string-array>
+
+
+    <string-array name="Vitamin">
+
+        <item>All</item>
+        <item>VITAMINS</item>
+        <item>MINERALS</item>
+        <item>VITAMINS AND MINERALS</item>
+        <item>MULTIVITAMINS</item>
+        <item>NUTRITION SUPPLEMENTS</item>
+        <item>HERBAL PRODUCTS</item>
+        <item>GENERAL TONICS AND STIMULANTS</item>
+        <item>ANTI-OXIDANTS</item>
+
+    </string-array>
+
+    <string-array name="Pill">
+
+        <item>All</item>
+        <item>BRAIN AND NERVOUS SYSTEM</item>
+        <item>EYE, EAR, AND NOSE</item>
+
+        <item>MOUTH AND THROAT</item>
+
+        <item>RESPIRATORY SYSTEM</item>
+
+        <item>HEART AND BLOOD VESSELS</item>
+
+        <item>LIVER AND DIGESTIVE SYSTEM</item>
+
+        <item>KIDNEY AND URINARY SYSTEM</item>
+
+        <item>SKIN</item>
+
+        <item>PAIN, FEVER, INFLAMMATION, AND ALLERGY</item>
+
+        <item>INFECTIONS</item>
+
+        <item>HORMONES</item>
+
+        <item>SPECIAL CASES</item>
+
+        <item>MEN'S HEALTH</item>
+
+        <item>WOMEN'S HEALTH</item>
+
+        <item>LABORATORY PREPARATIONS AND INFUSIONS</item>
+
+
+    </string-array>
+
+
+    <string-array name="Skin">
+
+        <item>All</item>
+        <item>EYE PRODUCTS</item>
+
+        <item>SKIN CLEANSING</item>
+
+        <item>SKIN WRINKLES</item>
+
+        <item>SKIN MOISTURIZING</item>
+
+        <item>SKIN NOURISHING</item>
+
+        <item>SKIN PEELING</item>
+
+        <item>SKIN WHITENING</item>
+
+        <item>SKIN REFRESH</item>
+
+        <item>SUN PROTECTION AND TANNING</item>
+
+        <item>PIMPLES PRODUCTS</item>
+
+        <item>SPECIAL PRODUCTS</item>
+
+
+    </string-array>
+
+
+    <string-array name="Body">
+        <item>All</item>
+        <item>BODY SHAPING</item>
+
+        <item>BODY WHITENING</item>
+
+        <item>BODY MOISTURIZING</item>
+
+        <item>BODY PEELING</item>
+
+        <item>BODY MASSAGE</item>
+
+        <item>BODY CARE DEVICES</item>
+
+        <item>HAND AND NAIL CARE</item>
+
+        <item>FOOT CARE</item>
+
+        <item>MOUTH AND DENTAL CARE</item>
+
+        <item>MEN PERSONAL CARE</item>
+
+        <item>HAIR REMOVAL PRODUCTS</item>
+
+        <item>WOMEN PERSONAL CARE</item>
+
+        <item>INTIMACY PRODUCTS</item>
+
+        <item>HYGIENE PRODUCTS</item>
+
+
+    </string-array>
+
+
+    <string-array name="Baby">
+
+        <item>All</item>
+
+        <item>PREGNANCY</item>
+
+        <item>BREASTFEEDING</item>
+
+        <item>CARRIAGE TOOLS</item>
+
+        <item>GROOMING PRODUCTS</item>
+
+        <item>MILK AND FOOD</item>
+
+        <item>FEEDING TOOLS</item>
+
+        <item>GENERAL TOOLS AND DEVICES</item>
+
+
+    </string-array>
+
+
+    <string-array name="Medical">
+
+        <item>All</item>
+
+        <item>MEASURING AND TESTING TOOLS</item>
+
+        <item>BODY SUPPORT</item>
+
+        <item>COMPRESSION STOCKINGS</item>
+
+        <item>FIRST AID</item>
+
+        <item>MEDICATION DELIVERY TOOLS</item>
+
+        <item>COMPRESSES</item>
+
+        <item>MEDICAL SOAP</item>
+
+        <item>MOVEMENT AID</item>
+
+        <item>FRACTURES</item>
+
+        <item>OTHER</item>
+
+
+    </string-array>
+
+
+    <string-array name="Hair">
+
+        <item>All</item>
+
+        <item>HAIR WASHING</item>
+
+
+        <item>HAIR STYLING</item>
+
+        <item>HAIR NOURISHING</item>
+
+        <item>HAIR COLORING</item>
+
+        <item>HAIR STRAIGHTENING</item>
+
+        <item>HAIR TREATMENTS</item>
+
+        <item>HAIR TOOLS</item>
+
+        <item>HAIR ELECTRIC DEVICES</item>
+
+
+    </string-array>
+
+
+    <string-array name="Beauty">
+
+        <item>All</item>
+        <item>MAKEUP</item>
+
+        <item>BEAUTY TOOLS</item>
+
+        <item>EYE LASHES</item>
+
+        <item>ARTIFICIAL NAILS</item>
+
+        <item>NAIL POLISH</item>
+
+        <item>LENSES</item>
+
+
+    </string-array>
+
+
+    <string-array name="Perfume">
+
+        <item>All</item>
+
+        <item>MEN</item>
+
+        <item>WOMEN</item>
+
+        <item>KIDS</item>
+
+        <item>BODY SPLASH</item>
+
+
+    </string-array>
+
+
+    <string-array name="Letters">
+
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+
+    </string-array>
+
+
+    <string name="facebook_app_id">704066373375612</string>
+    <string name="fb_login_protocol_scheme">fb704066373375612</string>
+
+    <string name="ClintID">551412667568-o8t69ujac8cg58drj732r5of316ehse8.apps.googleusercontent.com</string>
+
+
+</resources>

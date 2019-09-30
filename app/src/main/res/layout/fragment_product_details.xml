@@ -1,0 +1,388 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yaseerfarah22.com.pharmacy.View.ProductDetails">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/desc_add_tocart"
+        android:layout_marginBottom="2dp"
+        >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <android.support.v4.view.ViewPager
+           android:id="@+id/v_view_pager"
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:layout_alignParentTop="true"
+
+
+
+
+
+           />
+
+
+
+       <RelativeLayout
+           android:layout_width="45dp"
+           android:layout_height="45dp"
+           android:background="@drawable/transitions"
+           android:layout_alignParentRight="true"
+           android:layout_marginTop="225dp"
+           android:layout_marginRight="10dp"
+           android:id="@+id/like_button"
+           android:elevation="8dp"
+           >
+
+
+
+       </RelativeLayout>
+
+
+
+       <LinearLayout
+           android:id="@+id/linear"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_alignBottom="@+id/v_view_pager"
+           android:layout_marginBottom="10dp"
+           android:orientation="horizontal"/>
+
+
+
+
+
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="0.5dp"
+           android:layout_below="@+id/v_view_pager"
+           android:layout_marginTop="2dp"
+           android:id="@+id/vline1"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:background="@android:color/darker_gray"/>
+
+
+
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/info_card"
+           android:layout_below="@+id/vline1"
+           android:layout_marginTop="5dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           >
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/vtitle"
+                   android:text="London Sweetshirt"
+                   android:textStyle="bold"
+                   android:textSize="19sp"
+                   android:textColor="@android:color/black"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="15dp"
+                   />
+
+
+
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/vtitle"
+                   android:id="@+id/ex_dis"
+
+
+                   android:layout_marginTop="8dp"
+                   >
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/pro_exprice"
+                       android:text="159.99"
+                       android:textSize="18sp"
+                       android:layout_centerVertical="true"
+                       android:textColor="@android:color/darker_gray"
+                       android:layout_marginLeft="15dp"
+                       android:textStyle="normal"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/pro_exegp"
+                       android:text=".EGP"
+                       android:layout_centerVertical="true"
+                       android:textSize="18sp"
+                       android:textColor="@android:color/darker_gray"
+                       android:layout_toRightOf="@+id/pro_exprice"
+                       android:layout_marginLeft="1dp"
+                       android:typeface="serif"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/discount_background"
+                       android:id="@+id/pro_discount"
+                       android:layout_alignParentEnd="true"
+                       android:layout_marginRight="20dp"
+                       android:textSize="18sp"
+                       android:layout_centerVertical="true"
+                       android:textColor="@android:color/white"
+                       android:text="Discount 15%"
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="0.5dp"
+                       android:layout_marginTop="15dp"
+                       android:id="@+id/pro_linexprice"
+                       android:layout_marginLeft="15dp"
+
+                       android:layout_alignEnd="@+id/pro_exegp"
+                       android:background="@android:color/darker_gray"/>
+
+               </RelativeLayout>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/ex_dis"
+                   android:id="@+id/de_available_q_text"
+                   android:text="Available Quantity : "
+                   android:textSize="18sp"
+                   android:textColor="@android:color/black"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginLeft="15dp"
+                   />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/ex_dis"
+                   android:id="@+id/de_available_q"
+                   android:text="50"
+                   android:layout_toRightOf="@+id/de_available_q_text"
+                   android:textSize="18sp"
+                   android:textColor="@android:color/black"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginLeft="15dp"
+                   />
+
+
+               <TextView
+                   android:layout_marginLeft="15dp"
+                   android:id="@+id/pro_price"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/de_available_q"
+                   android:layout_marginBottom="15dp"
+                   android:textColor="@android:color/black"
+
+                   android:typeface="serif"
+                   android:text="149.99"
+                   android:textSize="20sp"
+                   />
+               <TextView
+                   android:layout_marginLeft="2dp"
+                   android:id="@+id/pro_egp"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toEndOf="@+id/pro_price"
+                   android:layout_below="@+id/de_available_q"
+                   android:layout_marginBottom="10dp"
+                   android:textColor="@android:color/black"
+
+                   android:typeface="serif"
+                   android:text=".EGP"
+                   android:textSize="20sp"
+                   />
+
+           </RelativeLayout>
+
+
+       </android.support.v7.widget.CardView>
+
+
+
+
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_below="@+id/info_card"
+           android:id="@+id/card_q"
+           >
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+              <ImageButton
+                  android:layout_width="56dp"
+                  android:layout_height="56dp"
+                  android:background="@drawable/round_b"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginBottom="20dp"
+                  android:layout_marginLeft="20dp"
+                  android:src="@drawable/ic_add_black_24dp"
+                  android:id="@+id/increase"
+                  android:layout_alignParentStart="true"
+                  />
+
+               <ImageButton
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:background="@drawable/round_b"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_marginRight="20dp"
+                   android:src="@drawable/ic_remove_black_24dp"
+                   android:id="@+id/decrease"
+                   android:layout_alignParentEnd="true"
+                   />
+
+
+               <TextView
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:background="@drawable/round_border_b"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_centerInParent="true"
+                   android:id="@+id/q_text"
+                   android:text="10"
+                   android:textSize="21sp"
+                   android:gravity="center"
+                   android:textColor="@android:color/black"
+                   />
+
+           </RelativeLayout>
+
+       </android.support.v7.widget.CardView>
+
+
+
+
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           >
+
+       </android.support.v7.widget.CardView>
+
+
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/card_q"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:id="@+id/card_des"
+           android:layout_marginBottom="10dp"
+           >
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginBottom="10dp"
+
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="* PANADOL Night is used to give temporary relief of pain when associated with sleeping difficulty.
+
+*It is useful for headache, migraine headache, backache, arthritis, rheumatic and muscle pain, neuralgia, toothache or period pain.
+
+*Paracetamol is an analgesic. It works to stop the pain messages from getting through to the brain. It also acts in the brain to reduce fever.
+
+"
+                   android:id="@+id/pro_dec"
+                   />
+
+           </RelativeLayout>
+
+       </android.support.v7.widget.CardView>
+
+   </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:text="Add to Cart"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_marginRight="100dp"
+        android:id="@+id/desc_add_tocart"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/black_border"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Quantity"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:id="@+id/user_q_text"
+            android:textSize="13sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_q_text"
+            android:layout_centerHorizontal="true"
+            android:text="10"
+            android:textColor="@android:color/black"
+
+            android:id="@+id/user_q_number"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
+</FrameLayout>
