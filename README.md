@@ -1,7 +1,8 @@
 # Pharmacy E-commerce With Firebase
++ Adobe XD UI Design
 + MVVM Architecture
 + Dagger2
-+ Adobe XD UI Design
++ Facebook & Google Login
 + Firebase Cloud Function
 + Firebase Firestore
 + Firebase Storage
